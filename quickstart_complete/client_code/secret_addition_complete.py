@@ -41,7 +41,7 @@ async def main():
 
     # 3. Pay for and store the program
     # Set the program name and path to the compiled program
-    program_name = "secret_addition_complete"
+    program_name = "secret_multiplication_complete"
     program_mir_path = f"../nada_quickstart_programs/target/{program_name}.nada.bin"
 
     # Create payments config, client and wallet

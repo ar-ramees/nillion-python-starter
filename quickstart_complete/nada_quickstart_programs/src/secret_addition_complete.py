@@ -7,6 +7,10 @@ def nada_main():
 
     my_int2 = SecretInteger(Input(name="my_int2", party=party1))
 
-    new_int = my_int1 * my_int2
+    multiply_value = my_int1 + my_int2
+
+    geometric_mean = product ** (1 / 2)
+
+    new_int = geometric_mean
 
     return [Output(new_int, "my_output", party1)]
